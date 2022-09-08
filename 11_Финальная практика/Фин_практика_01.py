@@ -16,7 +16,6 @@
 # 1
 
 
-
 def count_vowels(str1):
     vowel = ['a', 'e', 'i', 'o', 'u']
     count = 0
@@ -25,5 +24,6 @@ def count_vowels(str1):
             count += 1
     return print(count)
 
+
 input_str = input(str())
-result = count_vowels(input_str)
+count_vowels(input_str)
